@@ -1,0 +1,10 @@
+[user]
+	name = Dan Rashid
+	email = drashid@signal.co
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[credential]
+	helper = osxkeychain
