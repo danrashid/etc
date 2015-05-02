@@ -1,0 +1,18 @@
+{
+  "folders":
+  [
+    {
+      "path": "/Users/drashid/dev/brighttag/cadence",
+      "file_exclude_patterns": [
+        "*.jar"
+      ],
+      "folder_exclude_patterns": [
+        ".sass-cache",
+        "bower_components",
+        "coverage",
+        "node_modules",
+        "public/assets"
+      ]
+    }
+  ]
+}
