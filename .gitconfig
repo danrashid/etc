@@ -8,3 +8,5 @@
 	br = branch
 [credential]
 	helper = osxkeychain
+[core]
+	excludesfile = /Users/drashid/dev/github/etc/.gitignore_global
