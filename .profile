@@ -11,6 +11,8 @@ alias ll="ls -hal"
 alias mydiff="mysqldump --skip-triggers --compact --extended-insert=FALSE -tcu root"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
+alias cad="cd ~/dev/brighttag/cadence/ui/"
+alias cuke="TESTENV=guest_hybrid BROWSER=firefox SKIPRESET=true cucumber"
 alias gvm_start="VBoxManage startvm BrightTag12.04.4 --type headless"
 alias gvm_stop="VBoxManage controlvm BrightTag12.04.4 savestate"
 
