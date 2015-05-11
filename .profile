@@ -31,10 +31,9 @@ function ssj() {
 
 function pull() {
   pushd .
-  cd ~/dev/brighttag
-  for dir in `ls -d */`
+  for dir in `ls -d ~/dev/brighttag/*`
   do
-    cd "~/dev/brighttag/$dir"
+    cd $dir
     git checkout master
     git pull
   done
