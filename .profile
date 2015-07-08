@@ -15,6 +15,7 @@ alias cad="cd ~/dev/brighttag/cadence/ui/"
 alias cuke="TESTENV=guest_hybrid BROWSER=firefox SKIPRESET=true cucumber"
 alias gvm_start="VBoxManage startvm BrightTag12.04.4 --type headless"
 alias gvm_stop="VBoxManage controlvm BrightTag12.04.4 savestate"
+alias json="python -m json.tool"
 
 function scrub() {
   chmod -R 755 "$1"
