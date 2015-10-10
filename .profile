@@ -12,7 +12,7 @@ alias mydiff="mysqldump --skip-triggers --compact --extended-insert=FALSE -tcu r
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 alias cad="cd ~/dev/brighttag/cadence/ui/"
-alias cuke="TESTENV=guest_hybrid BROWSER=firefox SKIPRESET=true cucumber"
+alias cuke="TESTENV=guest_hybrid BROWSER=firefox SKIPRESET=true cucumber --tags ~@wip"
 alias gvm_start="VBoxManage startvm BrightTag12.04.4 --type headless"
 alias gvm_stop="VBoxManage controlvm BrightTag12.04.4 savestate"
 alias json="python -m json.tool"
