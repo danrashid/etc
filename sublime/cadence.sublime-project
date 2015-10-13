@@ -11,7 +11,9 @@
         "bower_components",
         "coverage",
         "node_modules",
-        "public/assets"
+        "public/assets",
+        "public/js/jade",
+        "specs/fixtures/jade"
       ]
     }
   ]
