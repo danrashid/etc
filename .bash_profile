@@ -7,6 +7,7 @@ export NVM_DIR="/Users/drashid/.nvm"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+export SHELL_SESSION_HISTORY=0
 export PS1='\h:\W \u$(__git_ps1)\$ '
 export EDITOR=nano
 
