@@ -4,7 +4,8 @@
     {
       "path": "/Users/drashid/dev/brighttag/cadence",
       "file_exclude_patterns": [
-        "*.jar"
+        "*.jar",
+        "uiComponents.js"
       ],
       "folder_exclude_patterns": [
         ".sass-cache",
@@ -14,7 +15,8 @@
         "public/assets",
         "public/css",
         "public/js/jade",
-        "specs/fixtures/jade"
+        "specs/fixtures/jade",
+        "ui_components"
       ]
     }
   ]

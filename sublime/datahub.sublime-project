@@ -9,6 +9,9 @@
 		},
 		{
 			"path": "/Users/drashid/dev/brighttag/bt/datahub"
+		},
+		{
+			"path": "/Users/drashid/dev/brighttag/bt/migrations"
 		}
 	]
 }

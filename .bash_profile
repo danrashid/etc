@@ -17,7 +17,7 @@ alias mydiff="mysqldump --skip-triggers --compact --extended-insert=FALSE -tcu r
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 alias cad="cd ~/dev/brighttag/cadence/ui/"
-alias cuke="TESTENV=vagrant_hybrid BROWSER=firefox SKIPRESET=true cucumber --tags ~@wip"
+alias cuke="TESTENV=vagrant_hybrid BROWSER=chrome SKIPRESET=true cucumber --tags ~@wip"
 alias json="python -m json.tool"
 
 function scrub() {
