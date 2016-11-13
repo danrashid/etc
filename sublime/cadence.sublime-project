@@ -10,6 +10,7 @@
       "folder_exclude_patterns": [
         ".sass-cache",
         "bower_components",
+        "ci/screenshots",
         "coverage",
         "node_modules",
         "public/assets",
