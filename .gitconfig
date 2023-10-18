@@ -1,12 +1,3 @@
 [user]
+	email = dan@danrashid.com
 	name = Dan Rashid
-	email = drashid@signal.co
-[alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-[credential]
-	helper = osxkeychain
-[core]
-	excludesfile = /Users/drashid/dev/github/etc/.gitignore_global
