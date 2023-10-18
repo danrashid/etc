@@ -1,0 +1,10 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}
